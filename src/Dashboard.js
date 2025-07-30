@@ -10,6 +10,7 @@ function Dashboard() {
     if (file) {
       const imageUrl = URL.createObjectURL(file);
       setImage(imageUrl);
+      
     }
   };
 
